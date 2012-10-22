@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02A792BD163526A3002BA3F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02A792BC163526A3002BA3F7 /* UIKit.framework */; };
+		02A792BF163526A3002BA3F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02A792BE163526A3002BA3F7 /* Foundation.framework */; };
+		02A792C1163526A3002BA3F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02A792C0163526A3002BA3F7 /* CoreGraphics.framework */; };
+		02A792C7163526A3002BA3F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02A792C5163526A3002BA3F7 /* InfoPlist.strings */; };
+		02A792C9163526A3002BA3F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A792C8163526A3002BA3F7 /* main.m */; };
+		02A792CD163526A3002BA3F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A792CC163526A3002BA3F7 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02A792B8163526A3002BA3F7 /* CrashReporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrashReporter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02A792BC163526A3002BA3F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		02A792BE163526A3002BA3F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		02A792C0163526A3002BA3F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		02A792C4163526A3002BA3F7 /* CrashReporter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrashReporter-Info.plist"; sourceTree = "<group>"; };
+		02A792C6163526A3002BA3F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		02A792C8163526A3002BA3F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02A792CA163526A3002BA3F7 /* CrashReporter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrashReporter-Prefix.pch"; sourceTree = "<group>"; };
+		02A792CB163526A3002BA3F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02A792CC163526A3002BA3F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02A792B5163526A3002BA3F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A792BD163526A3002BA3F7 /* UIKit.framework in Frameworks */,
+				02A792BF163526A3002BA3F7 /* Foundation.framework in Frameworks */,
+				02A792C1163526A3002BA3F7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02A792AD163526A3002BA3F7 = {
+			isa = PBXGroup;
+			children = (
+				02A792C2163526A3002BA3F7 /* CrashReporter */,
+				02A792BB163526A3002BA3F7 /* Frameworks */,
+				02A792B9163526A3002BA3F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02A792B9163526A3002BA3F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02A792B8163526A3002BA3F7 /* CrashReporter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02A792BB163526A3002BA3F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02A792BC163526A3002BA3F7 /* UIKit.framework */,
+				02A792BE163526A3002BA3F7 /* Foundation.framework */,
+				02A792C0163526A3002BA3F7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02A792C2163526A3002BA3F7 /* CrashReporter */ = {
+			isa = PBXGroup;
+			children = (
+				02A792CB163526A3002BA3F7 /* AppDelegate.h */,
+				02A792CC163526A3002BA3F7 /* AppDelegate.m */,
+				02A792C3163526A3002BA3F7 /* Supporting Files */,
+			);
+			path = CrashReporter;
+			sourceTree = "<group>";
+		};
+		02A792C3163526A3002BA3F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02A792C4163526A3002BA3F7 /* CrashReporter-Info.plist */,
+				02A792C5163526A3002BA3F7 /* InfoPlist.strings */,
+				02A792C8163526A3002BA3F7 /* main.m */,
+				02A792CA163526A3002BA3F7 /* CrashReporter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02A792B7163526A3002BA3F7 /* CrashReporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02A792D0163526A3002BA3F7 /* Build configuration list for PBXNativeTarget "CrashReporter" */;
+			buildPhases = (
+				02A792B4163526A3002BA3F7 /* Sources */,
+				02A792B5163526A3002BA3F7 /* Frameworks */,
+				02A792B6163526A3002BA3F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrashReporter;
+			productName = CrashReporter;
+			productReference = 02A792B8163526A3002BA3F7 /* CrashReporter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02A792AF163526A3002BA3F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = stylejar;
+			};
+			buildConfigurationList = 02A792B2163526A3002BA3F7 /* Build configuration list for PBXProject "CrashReporter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 02A792AD163526A3002BA3F7;
+			productRefGroup = 02A792B9163526A3002BA3F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02A792B7163526A3002BA3F7 /* CrashReporter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02A792B6163526A3002BA3F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A792C7163526A3002BA3F7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02A792B4163526A3002BA3F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02A792C9163526A3002BA3F7 /* main.m in Sources */,
+				02A792CD163526A3002BA3F7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		02A792C5163526A3002BA3F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02A792C6163526A3002BA3F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02A792CE163526A3002BA3F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02A792CF163526A3002BA3F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02A792D1163526A3002BA3F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrashReporter/CrashReporter-Prefix.pch";
+				INFOPLIST_FILE = "CrashReporter/CrashReporter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		02A792D2163526A3002BA3F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrashReporter/CrashReporter-Prefix.pch";
+				INFOPLIST_FILE = "CrashReporter/CrashReporter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02A792B2163526A3002BA3F7 /* Build configuration list for PBXProject "CrashReporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02A792CE163526A3002BA3F7 /* Debug */,
+				02A792CF163526A3002BA3F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02A792D0163526A3002BA3F7 /* Build configuration list for PBXNativeTarget "CrashReporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02A792D1163526A3002BA3F7 /* Debug */,
+				02A792D2163526A3002BA3F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02A792AF163526A3002BA3F7 /* Project object */;
+}
