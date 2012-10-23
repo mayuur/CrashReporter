@@ -9,10 +9,12 @@
 #import <UIKit/UIKit.h>
 
 #import "AppDelegate.h"
+#import "CrashRepoter.h"
 
 int main(int argc, char *argv[])
 {
     @autoreleasepool {
+        [CrashRepoter bindCrashRepoter];
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }

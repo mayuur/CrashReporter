@@ -13,6 +13,7 @@
 		02A792C7163526A3002BA3F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 02A792C5163526A3002BA3F7 /* InfoPlist.strings */; };
 		02A792C9163526A3002BA3F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A792C8163526A3002BA3F7 /* main.m */; };
 		02A792CD163526A3002BA3F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A792CC163526A3002BA3F7 /* AppDelegate.m */; };
+		02A792D516352D7D002BA3F7 /* CrashRepoter.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A792D416352D7D002BA3F7 /* CrashRepoter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		02A792CA163526A3002BA3F7 /* CrashReporter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrashReporter-Prefix.pch"; sourceTree = "<group>"; };
 		02A792CB163526A3002BA3F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		02A792CC163526A3002BA3F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02A792D316352D7D002BA3F7 /* CrashRepoter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashRepoter.h; sourceTree = "<group>"; };
+		02A792D416352D7D002BA3F7 /* CrashRepoter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrashRepoter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			children = (
 				02A792CB163526A3002BA3F7 /* AppDelegate.h */,
 				02A792CC163526A3002BA3F7 /* AppDelegate.m */,
+				02A792D316352D7D002BA3F7 /* CrashRepoter.h */,
+				02A792D416352D7D002BA3F7 /* CrashRepoter.m */,
 				02A792C3163526A3002BA3F7 /* Supporting Files */,
 			);
 			path = CrashReporter;
@@ -154,6 +159,7 @@
 			files = (
 				02A792C9163526A3002BA3F7 /* main.m in Sources */,
 				02A792CD163526A3002BA3F7 /* AppDelegate.m in Sources */,
+				02A792D516352D7D002BA3F7 /* CrashRepoter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
